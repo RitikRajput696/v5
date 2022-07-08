@@ -1,0 +1,24 @@
+.hero {
+    height: 80vh;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .hero-text {
+        background-color: red;
+        display: flex;
+
+        justify-content: center;
+        flex-direction: column;
+
+
+        P {
+            font-size: 1.1rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+    }
+}

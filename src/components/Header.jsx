@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <header>
-      <nav>
+      <nav className="container">
         <h1 className="logo">Ritik Rajput</h1>
         <ul className="nav-links">
           <li>

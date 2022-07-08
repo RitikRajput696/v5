@@ -12,10 +12,9 @@
 
 // layout
 @forward "./layout/header";
-@forward "./layout/nav";
 
 // sections
-@forward "./sections/hero-section";
+@forward "./sections/HeroSection";
 
 // pages
 @forward "./pages/index";
