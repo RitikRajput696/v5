@@ -1,12 +1,12 @@
 .hero {
-    height: 80vh;
+    min-height: 80vh;
     background-color: black;
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
 
     .hero-text {
-        background-color: red;
+
         display: flex;
 
         justify-content: center;
@@ -19,6 +19,11 @@
 
         h1 {
             font-size: 3rem;
+        }
+
+        .button-wrapper {
+            display: flex;
+            gap: 1rem;
         }
     }
 }
