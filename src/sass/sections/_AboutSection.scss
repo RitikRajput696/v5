@@ -1,9 +1,17 @@
 .AboutSection {
     display: flex;
+    gap: 3rem;
     flex-direction: column;
     padding-top: 10rem;
     background-color: black;
     color: white;
+    align-items: center;
+
+    .my-details-wrapper {
+        display: flex;
+        gap: 5rem;
+        align-items: center;
+    }
 }
 
 .AboutSection p:first-of-type {

@@ -36,6 +36,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.7;
+  font-size: 1.2rem;
 }
 
 h1,
@@ -80,6 +81,10 @@ svg {
     scroll-behavior: auto !important;
   }
 }
+p {
+  max-width: 40rem;
+}
+
 .container {
   max-width: 78rem;
   padding: 0 1rem;
@@ -96,20 +101,6 @@ svg {
   border-radius: 2rem;
   cursor: pointer;
   position: relative;
-}
-
-.button:after {
-  position: absolute;
-  content: "";
-  width: 0%;
-  height: 2px;
-  bottom: -5px;
-  left: 0;
-  background-color: red;
-}
-
-.button:hover .button:after {
-  width: 100%;
 }
 
 .button:hover {
@@ -163,13 +154,24 @@ nav .nav-links a:hover {
   display: flex;
   gap: 1rem;
 }
+.hero .hero-img {
+  display: flex;
+  justify-content: end;
+}
 
 .AboutSection {
   display: flex;
+  gap: 3rem;
   flex-direction: column;
   padding-top: 10rem;
   background-color: black;
   color: white;
+  align-items: center;
+}
+.AboutSection .my-details-wrapper {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
 }
 
 .AboutSection p:first-of-type {
@@ -213,4 +215,13 @@ nav .nav-links a:hover {
   font-weight: bold;
   display: inline-block;
   width: 1em;
+}
+
+.ProjectSection {
+  background-color: black;
+  color: white;
+}
+.ProjectSection h1 {
+  font-size: 3rem;
+  text-align: center;
 }

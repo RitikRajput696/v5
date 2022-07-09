@@ -37,6 +37,8 @@ body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.7;
+    font-size: 1.2rem;
+
 
 }
 
@@ -80,6 +82,10 @@ svg {
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
+}
+
+p {
+    max-width: 40rem;
 }
 
 
