@@ -1,8 +1,30 @@
 .button {
     background-color: black;
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 0.5em 1em;
     font-size: 1.1rem;
     border-radius: 2rem;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.button:after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: red;
+}
+
+.button:hover .button:after {
+    width: 100%;
+}
+
+.button:hover {
+    color: rgb(3, 221, 255);
+    border: 2px solid rgb(3, 221, 255);
 }
