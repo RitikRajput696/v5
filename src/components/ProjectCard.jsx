@@ -1,10 +1,11 @@
 import React from "react";
+import ClockImg from "../images/analog-clock-img.png";
 
 function ProjectCard() {
   return (
     <div className="card">
       <div className="card-img">
-        <img src="" alt="" />
+        <img src={ClockImg} alt="" />
       </div>
       <div className="card-text">
         <h2>Project Name</h2>

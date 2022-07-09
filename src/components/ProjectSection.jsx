@@ -9,6 +9,9 @@ function ProjectSection() {
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
       </div>
     </section>
   );

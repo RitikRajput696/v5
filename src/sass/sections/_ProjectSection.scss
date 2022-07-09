@@ -1,6 +1,6 @@
 .ProjectSection {
-    background-color: black;
-    color: white;
+    // background-color: black;
+    // color: white;
 
 
     h1 {
@@ -11,5 +11,7 @@
     .project-wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
     }
+
 }
