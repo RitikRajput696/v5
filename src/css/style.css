@@ -156,7 +156,7 @@ nav .nav-links a:hover {
 }
 .hero .hero-img {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .AboutSection {
@@ -224,4 +224,8 @@ nav .nav-links a:hover {
 .ProjectSection h1 {
   font-size: 3rem;
   text-align: center;
+}
+.ProjectSection .project-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }

@@ -7,4 +7,9 @@
         font-size: 3rem;
         text-align: center;
     }
+
+    .project-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
