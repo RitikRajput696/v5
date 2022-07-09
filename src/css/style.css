@@ -255,6 +255,10 @@ nav .nav-links a:hover {
   width: 1em;
 }
 
+.ProjectSection {
+  background-color: black;
+  color: white;
+}
 .ProjectSection h1 {
   font-size: 3rem;
   text-align: center;
@@ -263,4 +267,76 @@ nav .nav-links a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+}
+
+.ContactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
+  background-color: black;
+  color: white;
+}
+
+.ContactSection > div {
+  max-width: 36.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.ContactSection h1 {
+  font-size: 4rem;
+}
+
+.ContactSection h1,
+.ContactSection .form-para {
+  text-align: center;
+  margin: 0.3rem;
+}
+
+.ContactSection .mid-heading::after {
+  display: none;
+}
+
+.form > div {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.form {
+  width: 90%;
+}
+
+.form label {
+  padding-bottom: 0.3rem;
+}
+
+.form input,
+.form textarea {
+  border-radius: 10px;
+  text-indent: 1rem;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid #8892b0;
+  color: #e6f1ff;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border: 2px solid #64ffda;
+}
+
+.form input {
+  height: 3rem;
+  width: 100%;
+}
+
+.form textarea {
+  padding: 1.5rem;
 }
