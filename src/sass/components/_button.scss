@@ -7,19 +7,9 @@
     border-radius: 2rem;
     cursor: pointer;
     position: relative;
+    transition: 300ms ease;
 
 }
-
-// .button::after {
-//     position: absolute;
-//     content: "";
-//     width: 0%;
-//     height: 2px;
-//     bottom: -5px;
-//     left: 0;
-//     background-color: red;
-// }
-
 
 .button:hover {
     color: rgb(3, 221, 255);

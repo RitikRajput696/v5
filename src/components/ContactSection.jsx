@@ -48,7 +48,7 @@ function ContactSection() {
               id="message"
               cols="30"
               rows="10"
-              placeholder="Say hello"
+              placeholder="Say hello !"
               required
             ></textarea>
           </div>
@@ -57,7 +57,6 @@ function ContactSection() {
           </button>
         </form>
       </div>
-      <input type="text" />
     </section>
   );
 }

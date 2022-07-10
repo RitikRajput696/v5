@@ -101,6 +101,7 @@ p {
   border-radius: 2rem;
   cursor: pointer;
   position: relative;
+  transition: 300ms ease;
 }
 
 .button:hover {
@@ -115,6 +116,7 @@ p {
   gap: 2rem;
   background-color: rgba(22, 240, 193, 0.555);
   border-radius: 10px;
+  transition: 300ms ease;
 }
 .card .card-img img {
   border-radius: 10px 10px 0 0;
