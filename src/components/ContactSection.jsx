@@ -25,7 +25,6 @@ function ContactSection() {
             <label for="Full Name">Full Name</label>
             <input
               type="text"
-              value=""
               id="fullname"
               name="fullName"
               placeholder="John Wick"
@@ -36,7 +35,6 @@ function ContactSection() {
             <label for="Email">Your Email</label>
             <input
               type="email"
-              value=""
               id="email"
               name="email"
               placeholder="abc@example.com"
