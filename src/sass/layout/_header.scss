@@ -1,8 +1,11 @@
+@use "../variable/colors" as clr;
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    background-color: clr.$bg-color;
+    color: clr.$primary-text-color;
 
     .logo {
         font-size: 3rem;

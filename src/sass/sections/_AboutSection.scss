@@ -1,10 +1,12 @@
+@use "../variable/colors" as clr;
+
 .AboutSection {
     display: flex;
     gap: 3rem;
     flex-direction: column;
     padding-top: 10rem;
-    background-color: black;
-    color: white;
+    background-color: clr.$bg-color;
+    color: clr.$primary-text-color;
     align-items: center;
 
     .my-details-wrapper {
@@ -12,14 +14,34 @@
         gap: 5rem;
         align-items: center;
     }
+
+    .about-img {
+        animation: move-up-down 4s ease infinite;
+    }
+}
+
+@keyframes move-up-down {
+
+    25% {
+        transform: translateY(-40px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    75% {
+        transform: translateY(-40px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
 }
 
 .AboutSection p:first-of-type {
     margin-top: 2rem;
-}
-
-.AboutSection .my-info {
-    background-color: red;
 }
 
 .AboutSection .my-img {
@@ -37,21 +59,23 @@
     margin: 2rem 0;
     display: flex;
     padding: 1rem;
-    border-left: 2px solid #64ffda;
+    border-left: 2px solid clr.$primary-blue;
+
 }
 
 .AboutSection .about-me-value {
     padding-left: 2rem;
+    color: clr.$slate;
 }
 
 .AboutSection ul {
     list-style-type: none;
-    color: #8892b0;
+    color: clr.$slate;
 }
 
 .AboutSection li::before {
     content: "▸";
-    color: #64ffda;
+    color: clr.$primary-blue;
     font-weight: bold;
     display: inline-block;
     width: 1em;

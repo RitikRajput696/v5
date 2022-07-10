@@ -1,3 +1,5 @@
+@use "../variable/colors" as clr;
+
 .ContactSection {
     display: flex;
     flex-direction: column;
@@ -6,8 +8,8 @@
     padding-top: 10rem;
 
 
-    background-color: black;
-    color: white;
+    background-color: clr.$bg-color;
+    color: clr.$primary-text-color;
 }
 
 .ContactSection>div {

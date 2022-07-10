@@ -16,7 +16,7 @@ function ContactSection() {
           best to get back to you!
         </p>
         <form
-          action="https://formspree.io/f/moqrlnbz"
+          action="https://formspree.io/f/mayvgpjw"
           method="post"
           id="form"
           className="form"
@@ -53,7 +53,7 @@ function ContactSection() {
             ></textarea>
           </div>
           <button className="button" type="submit">
-            Send Message
+            <span> Send Message</span>
           </button>
         </form>
       </div>

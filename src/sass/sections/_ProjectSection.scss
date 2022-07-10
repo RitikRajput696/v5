@@ -1,6 +1,8 @@
+@use "../variable/colors" as clr;
+
 .ProjectSection {
-    background-color: black;
-    color: white;
+    background-color: clr.$bg-color;
+    color: clr.$primary-text-color;
 
 
     h1 {

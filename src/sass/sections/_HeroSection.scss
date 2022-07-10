@@ -1,7 +1,9 @@
+@use "../variable/colors" as clr;
+
 .hero {
     min-height: 80vh;
-    background-color: black;
-    color: white;
+    background-color: clr.$bg-color;
+    color: clr.$primary-text-color;
     display: grid;
     grid-template-columns: 1fr 1fr;
 
