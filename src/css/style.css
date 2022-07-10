@@ -305,7 +305,7 @@ nav .nav-links a:hover {
   font-size: 3rem;
   text-align: center;
 }
-.ProjectSection .project-wrapper {
+.ProjectSection .CardList {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;

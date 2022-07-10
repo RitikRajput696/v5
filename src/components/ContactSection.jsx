@@ -22,7 +22,7 @@ function ContactSection() {
           className="form"
         >
           <div>
-            <label for="Full Name">Full Name</label>
+            <label htmlFor="Full Name">Full Name</label>
             <input
               type="text"
               id="fullname"
@@ -32,7 +32,7 @@ function ContactSection() {
             />
           </div>
           <div>
-            <label for="Email">Your Email</label>
+            <label htmlFor="Email">Your Email</label>
             <input
               type="email"
               id="email"
@@ -42,7 +42,7 @@ function ContactSection() {
             />
           </div>
           <div>
-            <label for="Message">Message</label>
+            <label htmlFor="Message">Message</label>
             <textarea
               name="Message"
               id="message"
