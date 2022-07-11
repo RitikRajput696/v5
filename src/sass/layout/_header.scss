@@ -23,10 +23,18 @@ nav {
             transition: 400ms ease;
         }
 
-        a:hover {
+        a:hover:not(.button) {
             background-color: black;
-            color: rgb(3, 221, 255);
-
+            color: clr.$primary-blue
         }
+
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
     }
 }

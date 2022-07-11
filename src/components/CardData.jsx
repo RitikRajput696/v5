@@ -1,4 +1,4 @@
-const cards = [
+const CardData = [
   {
     id: 1,
     img: "https://images-eu.ssl-images-amazon.com/images/I/71g2ednj0JL._AC_UL604_SR604,400_.jpg",
@@ -25,4 +25,4 @@ const cards = [
     title: "The Hunting Party",
   },
 ];
-export default cards;
+export default CardData;

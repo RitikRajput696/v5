@@ -1,0 +1,20 @@
+@media only screen and (max-width:930px) {
+    .hero {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .hero-text {
+            align-items: center;
+            gap: 1rem;
+        }
+
+
+    }
+
+    .hero-img {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+
+    }
+}

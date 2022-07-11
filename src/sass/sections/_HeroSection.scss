@@ -20,7 +20,7 @@
         }
 
         h1 {
-            font-size: 3rem;
+            font-size: clamp(1.5rem, 5vw, 3rem);
         }
 
         .button-wrapper {
@@ -32,5 +32,7 @@
     .hero-img {
         display: flex;
         justify-content: flex-end;
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
 }

@@ -1,4 +1,6 @@
 import React from "react";
+import Github from "../images/github.svg";
+import Twitter from "../images/twitter.svg";
 
 function Header() {
   return (
@@ -15,9 +17,14 @@ function Header() {
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <li>
-            <a href="#" className="button">
-              Resume
+          <li className="icons">
+            <a href="https://www.github.com/ritikrajput696">
+              <img src={Github} alt="" />
+            </a>
+          </li>
+          <li className="icons">
+            <a href="https://www.twitter.com/ritikrajput696">
+              <img src={Twitter} alt="" />
             </a>
           </li>
         </ul>

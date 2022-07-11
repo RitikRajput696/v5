@@ -4,9 +4,6 @@
 //variables
 @forward "./variable/colors";
 
-// utilities
-@forward "./utils/mixins";
-
 // components
 @forward "./components/button";
 @forward "./components/project-card";
@@ -22,3 +19,7 @@
 
 // pages
 @forward "./pages/index";
+
+// utilities
+@forward "./utils/mixins";
+@forward "./utils/breakpoint";

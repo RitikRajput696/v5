@@ -18,8 +18,9 @@
 }
 
 .button:hover {
-    color: white;
-    border: 2px solid rgb(3, 221, 255);
+    color: black;
+
+    border: 2px solid clr.$primary-blue;
 
     background-position: left;
 }

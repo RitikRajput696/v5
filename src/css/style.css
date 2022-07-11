@@ -113,8 +113,8 @@ p {
 }
 
 .button:hover {
-  color: white;
-  border: 2px solid rgb(3, 221, 255);
+  color: black;
+  border: 2px solid #64ffda;
   background-position: left;
 }
 
@@ -181,9 +181,14 @@ nav .nav-links a {
   color: white;
   transition: 400ms ease;
 }
-nav .nav-links a:hover {
+nav .nav-links a:hover:not(.button) {
   background-color: black;
-  color: rgb(3, 221, 255);
+  color: #64ffda;
+}
+nav .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero {
@@ -202,7 +207,7 @@ nav .nav-links a:hover {
   font-size: 1.1rem;
 }
 .hero .hero-text h1 {
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 5vw, 3rem);
 }
 .hero .hero-text .button-wrapper {
   display: flex;
@@ -211,6 +216,8 @@ nav .nav-links a:hover {
 .hero .hero-img {
   display: flex;
   justify-content: flex-end;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .AboutSection {
@@ -393,4 +400,20 @@ nav .nav-links a:hover {
 
 .form textarea {
   padding: 1.5rem;
+}
+
+@media only screen and (max-width: 930px) {
+  .hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .hero .hero-text {
+    align-items: center;
+    gap: 1rem;
+  }
+  .hero-img {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+  }
 }
