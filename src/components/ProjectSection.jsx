@@ -5,7 +5,10 @@ import CardList from "./ProjectCard";
 function ProjectSection() {
   return (
     <section className="ProjectSection container">
-      <h1>MY PROJECTS</h1>
+      <div className="ProjectSection-text">
+        <span className="text-green">03.</span>
+        <h1>MY PROJECTS</h1>
+      </div>
       <CardList />
     </section>
   );

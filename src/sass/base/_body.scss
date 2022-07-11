@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     font: inherit;
+    // outline: 2px solid white;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -98,4 +99,8 @@ p {
     padding: 0 1rem;
     width: 100%;
     margin: 0 auto;
+}
+
+.text-green {
+    color: clr.$primary-blue;
 }

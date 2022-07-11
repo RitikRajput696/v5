@@ -3,7 +3,14 @@
 .ProjectSection {
     background-color: clr.$bg-color;
     color: clr.$primary-text-color;
+    padding-top: 10rem;
 
+    .ProjectSection-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
 
     h1 {
         font-size: 3rem;
