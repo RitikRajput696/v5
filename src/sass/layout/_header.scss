@@ -35,6 +35,12 @@ nav {
         align-items: center;
         justify-content: center;
 
+        a:hover svg {
+            fill: clr.$primary-blue;
+        }
 
+        svg {
+            height: 2rem;
+        }
     }
 }

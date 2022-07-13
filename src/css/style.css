@@ -190,6 +190,12 @@ nav .icons {
   align-items: center;
   justify-content: center;
 }
+nav .icons a:hover svg {
+  fill: #64ffda;
+}
+nav .icons svg {
+  height: 2rem;
+}
 
 .hero {
   min-height: 80vh;
