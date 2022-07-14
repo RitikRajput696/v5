@@ -10,7 +10,9 @@ function AboutSection() {
       </div>
       <div className="my-text-wrapper">
         <span className="text-green">02.</span>
-        <span className="mid-heading">About Me</span>
+        <h1>
+          <span className="mid-heading">About Me</span>
+        </h1>
         <p>
           Hello! My name is Ritik and I enjoy creating things that live on the
           internet. My interest in web development started back in

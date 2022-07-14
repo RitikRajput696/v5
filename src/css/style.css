@@ -30,6 +30,16 @@ body {
   height: 100%;
 }
 
+::-moz-selection {
+  color: #64ffda;
+  background-color: black;
+}
+
+::selection {
+  color: #64ffda;
+  background-color: black;
+}
+
 body {
   font-family: "Chivo", sans-serif;
   font-weight: 400;
@@ -170,7 +180,18 @@ nav {
 }
 nav .logo {
   font-size: 3rem;
-  color: rgb(3, 221, 255);
+  color: #64ffda;
+}
+nav .ham {
+  width: 3rem;
+  display: none;
+  cursor: pointer;
+}
+nav .ham-item {
+  background-color: red;
+  margin: 0.5rem 0;
+  width: 3rem;
+  height: 5px;
 }
 nav .nav-links {
   display: flex;
@@ -192,6 +213,7 @@ nav .icons {
 }
 nav .icons a:hover svg {
   fill: #64ffda;
+  transition: 300ms ease;
 }
 nav .icons svg {
   height: 2rem;
@@ -222,8 +244,6 @@ nav .icons svg {
 .hero .hero-img {
   display: flex;
   justify-content: flex-end;
-  grid-row-start: 1;
-  grid-row-end: 2;
 }
 
 .AboutSection {
@@ -234,6 +254,9 @@ nav .icons svg {
   background-color: #071036;
   color: white;
   align-items: center;
+}
+.AboutSection my-text-wrapper h1 {
+  font-size: 3rem;
 }
 .AboutSection .my-details-wrapper {
   display: flex;
@@ -417,9 +440,55 @@ nav .icons svg {
     align-items: center;
     gap: 1rem;
   }
+  .hero .hero-img {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
   .hero-img {
     display: flex;
     justify-content: center !important;
     align-items: center;
+  }
+  .AboutSection .my-details-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .ProjectSection .CardList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 800px) {
+  nav {
+    flex-direction: column;
+  }
+  nav .logo {
+    padding: 0 1rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav .ham {
+    display: block;
+  }
+  nav .nav-links {
+    flex-direction: column;
+  }
+  nav .nav-links .active {
+    display: none;
+  }
+  nav .nav-links a {
+    width: 100vw;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ProjectSection .CardList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ProjectSection .CardList .card {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
   }
 }

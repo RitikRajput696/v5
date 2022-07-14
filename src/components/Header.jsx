@@ -1,10 +1,23 @@
 import React from "react";
 
 function Header() {
+  function ShowHideNav() {
+    console.log("ham burger has been clicked");
+    const nav = document.querySelector(".nav-links");
+    nav.classList.toggle("active");
+    console.log("ham end");
+  }
   return (
     <header>
       <nav className="container">
-        <h1 className="logo">Ritik Rajput</h1>
+        <h1 className="logo">
+          Ritik Rajput{" "}
+          <div className="ham" onClick={ShowHideNav}>
+            <div className="ham-item"></div>
+            <div className="ham-item"></div>
+            <div className="ham-item"></div>
+          </div>
+        </h1>
         <ul className="nav-links">
           <li>
             <a href="#about">About Me</a>
@@ -16,7 +29,7 @@ function Header() {
             <a href="#contact">Contact</a>
           </li>
           <li className="icons">
-            <a href="https://www.github.com/ritikrajput696">
+            <a href="https://www.github.com/ritikrajput696" target="_blank">
               <svg
                 stroke="currentColor"
                 fill="#fff"
@@ -31,7 +44,7 @@ function Header() {
             </a>
           </li>
           <li className="icons">
-            <a href="https://www.twitter.com/ritikrajput696">
+            <a href="https://www.twitter.com/ritikrajput696" target="_blank">
               <svg
                 stroke="currentColor"
                 fill="#fff"

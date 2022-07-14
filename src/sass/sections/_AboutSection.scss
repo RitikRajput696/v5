@@ -9,6 +9,11 @@
     color: clr.$primary-text-color;
     align-items: center;
 
+    my-text-wrapper {
+        h1 {
+            font-size: 3rem;
+        }
+    }
 
     .my-details-wrapper {
         display: flex;

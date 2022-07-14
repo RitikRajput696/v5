@@ -8,6 +8,11 @@
             gap: 1rem;
         }
 
+        .hero-img {
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
 
     }
 
@@ -17,4 +22,63 @@
         align-items: center;
 
     }
+
+    .AboutSection {
+        .my-details-wrapper {
+            flex-direction: column;
+            gap: 2rem;
+        }
+    }
+
+    .ProjectSection .CardList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width:800px) {
+    nav {
+        flex-direction: column;
+
+        .logo {
+            padding: 0 1rem;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .ham {
+            display: block;
+        }
+
+
+        .nav-links {
+            flex-direction: column;
+
+
+            .active {
+                display: none;
+            }
+
+
+            a {
+                width: 100vw;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .ProjectSection .CardList {
+        grid-template-columns: repeat(1, 1fr);
+
+        .card {
+            max-width: 450px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+
 }

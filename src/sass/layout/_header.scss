@@ -9,11 +9,26 @@ nav {
 
     .logo {
         font-size: 3rem;
-        color: rgb(3, 221, 255);
+        color: clr.$primary-blue;
+    }
+
+    .ham {
+        width: 3rem;
+        display: none;
+        cursor: pointer;
+    }
+
+    .ham-item {
+        background-color: red;
+        margin: 0.5rem 0;
+        width: 3rem;
+        height: 5px;
+
     }
 
     .nav-links {
         display: flex;
+
 
         a {
             padding: 0.5em 1em;
@@ -37,6 +52,7 @@ nav {
 
         a:hover svg {
             fill: clr.$primary-blue;
+            transition: 300ms ease;
         }
 
         svg {
