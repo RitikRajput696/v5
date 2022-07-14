@@ -23,17 +23,17 @@ function Header() {
         </h1>
         <ul className="nav-links">
           <li>
-            <a href="#about" onClick={hideNav}>
+            <a href="#about" rel="noreferrer" onClick={hideNav}>
               About Me
             </a>
           </li>
           <li>
-            <a href="#projects" onClick={hideNav}>
+            <a href="#projects" rel="noreferrer" onClick={hideNav}>
               Projects
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={hideNav}>
+            <a href="#contact" rel="noreferrer" onClick={hideNav}>
               Contact
             </a>
           </li>
@@ -41,12 +41,12 @@ function Header() {
             <a
               href="https://www.github.com/ritikrajput696"
               target="_blank"
+              rel="noreferrer"
               onClick={hideNav}
             >
               <svg
                 stroke="currentColor"
                 fill="#fff"
-                stroke-width="0"
                 viewBox="0 0 1024 1024"
                 height="2rem"
                 width="100%"
@@ -60,12 +60,12 @@ function Header() {
             <a
               href="https://www.twitter.com/ritikrajput696"
               target="_blank"
+              rel="noreferrer"
               onClick={hideNav}
             >
               <svg
                 stroke="currentColor"
                 fill="#fff"
-                stroke-width="0"
                 viewBox="0 0 1024 1024"
                 height="2rem"
                 width="100%"
