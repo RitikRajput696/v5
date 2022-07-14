@@ -2,10 +2,13 @@ import React from "react";
 
 function Header() {
   function ShowHideNav() {
-    console.log("ham burger has been clicked");
-    const nav = document.querySelector(".nav-links");
-    nav.classList.toggle("active");
+    console.log("ham start");
+    document.querySelector(".nav-links").classList.toggle("active");
     console.log("ham end");
+  }
+
+  function hideNav() {
+    document.querySelector(".nav-links").classList.toggle("active");
   }
   return (
     <header>
@@ -20,16 +23,26 @@ function Header() {
         </h1>
         <ul className="nav-links">
           <li>
-            <a href="#about">About Me</a>
+            <a href="#about" onClick={hideNav}>
+              About Me
+            </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" onClick={hideNav}>
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={hideNav}>
+              Contact
+            </a>
           </li>
           <li className="icons">
-            <a href="https://www.github.com/ritikrajput696" target="_blank">
+            <a
+              href="https://www.github.com/ritikrajput696"
+              target="_blank"
+              onClick={hideNav}
+            >
               <svg
                 stroke="currentColor"
                 fill="#fff"
@@ -44,7 +57,11 @@ function Header() {
             </a>
           </li>
           <li className="icons">
-            <a href="https://www.twitter.com/ritikrajput696" target="_blank">
+            <a
+              href="https://www.twitter.com/ritikrajput696"
+              target="_blank"
+              onClick={hideNav}
+            >
               <svg
                 stroke="currentColor"
                 fill="#fff"

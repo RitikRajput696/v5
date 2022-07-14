@@ -1,3 +1,5 @@
+@use "../variable/colors" as clr;
+
 @media only screen and (max-width:930px) {
     .hero {
         grid-template-columns: 1fr;
@@ -38,6 +40,7 @@
 @media only screen and (max-width:800px) {
     nav {
         flex-direction: column;
+        position: relative;
 
         .logo {
             padding: 0 1rem;
@@ -51,14 +54,12 @@
             display: block;
         }
 
-
         .nav-links {
+            top: 7rem;
             flex-direction: column;
-
-
-            .active {
-                display: none;
-            }
+            position: absolute;
+            z-index: 1;
+            background-color: clr.$slate;
 
 
             a {
@@ -66,6 +67,10 @@
                 text-align: center;
             }
         }
+    }
+
+    .active {
+        display: none !important;
     }
 }
 
