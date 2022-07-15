@@ -1,6 +1,6 @@
 import React from "react";
 import myIMage from "../images/ritikImage.png";
-import RocketImage from "../images/rocketImage.svg";
+import RocketImage from "../images/rocketImage.png";
 
 function AboutSection() {
   return (
