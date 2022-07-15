@@ -1,12 +1,12 @@
 import React from "react";
 
 function Header() {
+  // show nav when click on hamburger
   function ShowHideNav() {
-    console.log("ham start");
     document.querySelector(".nav-links").classList.toggle("active");
-    console.log("ham end");
   }
 
+  // hide nav when click on links
   function hideNav() {
     document.querySelector(".nav-links").classList.toggle("active");
   }

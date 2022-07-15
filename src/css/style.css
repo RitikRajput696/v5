@@ -133,7 +133,7 @@ p {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  background-color: rgba(2, 54, 43, 0.555);
+  background-color: rgb(4, 54, 43);
   border-radius: 10px;
   transition: 300ms ease;
 }
@@ -197,7 +197,7 @@ nav .ham {
   cursor: pointer;
 }
 nav .ham-item {
-  background-color: red;
+  background-color: #8892b0;
   margin: 0.5rem 0;
   width: 3rem;
   height: 5px;
@@ -380,6 +380,7 @@ nav .icons svg {
   align-items: center;
   justify-content: center;
   padding-top: 10rem;
+  margin-bottom: 5rem;
   background-color: #071036;
   color: white;
 }
@@ -493,7 +494,7 @@ nav .icons svg {
     flex-direction: column;
     position: absolute;
     z-index: 1;
-    background-color: #8892b0;
+    background-color: rgb(4, 54, 43);
   }
   nav .nav-links a {
     width: 100vw;

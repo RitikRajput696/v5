@@ -4,7 +4,7 @@ import RocketImage from "../images/rocketImage.png";
 
 function AboutSection() {
   return (
-    <section className="AboutSection container">
+    <section className="AboutSection container" id="about">
       <div className="about-img">
         <img src={RocketImage} alt="" />
       </div>
