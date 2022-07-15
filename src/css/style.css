@@ -276,6 +276,13 @@ nav .icons svg {
   -webkit-animation: move-up-down 4s ease infinite;
           animation: move-up-down 4s ease infinite;
 }
+.AboutSection .about-wrapper {
+  display: flex;
+  align-items: center;
+}
+.AboutSection .about-wrapper h1 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
 
 @-webkit-keyframes move-up-down {
   25% {
@@ -316,8 +323,7 @@ nav .icons svg {
 
 .AboutSection .my-img img {
   margin: 3.5rem 0 0 1rem;
-  height: 25vw;
-  width: 25vw;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -358,7 +364,7 @@ nav .icons svg {
   margin-bottom: 3rem;
 }
 .ProjectSection h1 {
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 5vw, 3rem);
   text-align: center;
 }
 .ProjectSection .CardList {
@@ -482,6 +488,7 @@ nav .icons svg {
     display: block;
   }
   nav .nav-links {
+    display: none;
     top: 7rem;
     flex-direction: column;
     position: absolute;
@@ -493,7 +500,7 @@ nav .icons svg {
     text-align: center;
   }
   .active {
-    display: none !important;
+    display: block !important;
   }
 }
 @media only screen and (max-width: 600px) {

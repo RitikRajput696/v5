@@ -22,7 +22,7 @@ function ProjectCard({ img, title, live, sourceCode }) {
         <div className="card-labels">
           <code>HTML</code>
           <code>CSS</code>
-          <code>REACT</code>
+          <code>JS</code>
         </div>
         <div className="card-bottom">
           <a href={live}>LIVE</a>
