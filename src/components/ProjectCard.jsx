@@ -1,6 +1,5 @@
 import React from "react";
 import CardData from "./CardData";
-// import ClockImg from "../images/analog-clock-img.png";
 
 function CardList() {
   return (
@@ -12,7 +11,7 @@ function CardList() {
   );
 }
 
-function ProjectCard({ img, title }) {
+function ProjectCard({ img, title, live, sourceCode }) {
   return (
     <div className="card">
       <div className="card-img">
@@ -26,8 +25,8 @@ function ProjectCard({ img, title }) {
           <code>REACT</code>
         </div>
         <div className="card-bottom">
-          <a href="#">LIVE</a>
-          <a href="#">SOURCE CODE</a>
+          <a href={live}>LIVE</a>
+          <a href={sourceCode}>SOURCE CODE</a>
         </div>
       </div>
     </div>
