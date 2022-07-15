@@ -146,6 +146,8 @@ p {
   gap: 1rem;
   width: 100%;
   text-align: center;
+  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .card .card-text .card-labels {
   display: flex;
