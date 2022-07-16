@@ -264,9 +264,6 @@ nav .icons svg {
   color: white;
   align-items: center;
 }
-.AboutSection my-text-wrapper h1 {
-  font-size: 3rem;
-}
 .AboutSection .my-details-wrapper {
   display: flex;
   gap: 5rem;
@@ -339,7 +336,7 @@ nav .icons svg {
   color: #8892b0;
 }
 
-.AboutSection ul {
+.AboutSection .skills-list {
   list-style-type: none;
   color: #8892b0;
 }
@@ -380,7 +377,7 @@ nav .icons svg {
   align-items: center;
   justify-content: center;
   padding-top: 10rem;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
   background-color: #071036;
   color: white;
 }
@@ -394,7 +391,7 @@ nav .icons svg {
 }
 
 .ContactSection h1 {
-  font-size: 4rem;
+  font-size: clamp(1.5rem, 5vw, 3rem);
 }
 
 .ContactSection h1,
@@ -440,7 +437,7 @@ nav .icons svg {
 
 .form input {
   height: 3rem;
-  width: 100%;
+  max-width: 100%;
 }
 
 .form textarea {
@@ -505,6 +502,23 @@ nav .icons svg {
   }
 }
 @media only screen and (max-width: 600px) {
+  .hero .button {
+    padding: 0.5em 2em;
+  }
+  .AboutSection .about-me-value {
+    padding-left: 1rem;
+  }
+  .AboutSection .my-details {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .AboutSection .skills-list {
+    text-align: center;
+  }
+  .AboutSection .skills p {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
   .ProjectSection .CardList {
     grid-template-columns: repeat(1, 1fr);
   }

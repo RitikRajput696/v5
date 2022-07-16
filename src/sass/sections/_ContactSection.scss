@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 10rem;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 
 
     background-color: clr.$bg-color;
@@ -22,7 +22,7 @@
 }
 
 .ContactSection h1 {
-    font-size: 4rem;
+    font-size: clamp(1.5rem, 5vw, 3rem);
 }
 
 .ContactSection h1,
@@ -68,7 +68,7 @@
 
 .form input {
     height: 3rem;
-    width: 100%;
+    max-width: 100%;
 }
 
 .form textarea {
