@@ -9,12 +9,17 @@ function HeroSection() {
         <h1>Ritik I am a </h1>
         <h1>Frontend Web Developer</h1>
         <div className="button-wrapper">
-          <button className="button">
+          <a className="button" href="#contact" rel="noreferrer">
             <span>Contact</span>
-          </button>
-          <button className="button">
+          </a>
+          <a
+            className="button"
+            href="https://drive.google.com/file/d/1WZYKPt1IgLUQ21cCgh41R8E5nf4_WIQF/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
             <span>Resume</span>
-          </button>
+          </a>
         </div>
       </article>
       <div className="hero-img">
