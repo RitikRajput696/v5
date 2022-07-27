@@ -7,7 +7,7 @@ function AboutSection() {
   return (
     <section className="AboutSection container" id="about">
       <div className="about-img">
-        <img src={RocketImage} alt="" />
+        <img src={RocketImage} alt="rocket image" />
       </div>
       <div className="my-text-wrapper">
         <div className="about-wrapper">
@@ -21,11 +21,11 @@ function AboutSection() {
           internet. My interest in web development started back in
           <span className="text-green"> September 2021 </span>when my father
           gifted me a laptop and then i slowly started learning about
-          <span className="text-green">WebDevelopment.</span>
+          <span className="text-green"> Web Development.</span>
         </p>
       </div>
       <div className="my-img">
-        <img loading="lazy" src={myIMage} alt="" />
+        <img loading="lazy" src={myIMage} alt="ritik rajput image" />
       </div>
       <div className="my-details-wrapper">
         <div className="my-details">
@@ -47,20 +47,6 @@ function AboutSection() {
           </div>
         </div>
         <SkillsIcon />
-        {/* <div className="skills">
-          <p>Here are a few technologies I’ve been working with recently:</p>
-          <ul className="skills-list">
-
-            <li>Html</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>React Js</li>
-            <li>Material UI</li>
-            <li>SASS</li>
-            <li>Node.js</li>
-            <li>Github</li>
-          </ul>
-        </div> */}
       </div>
     </section>
   );

@@ -11,45 +11,33 @@ function SkillsIcon() {
         />
       </div>
       <div className="icon">
-        <img
-          src={require("../images/icons8-css3-144.png")}
-          alt="html icon image"
-        />
+        <img src={require("../images/icons8-css3-144.png")} alt="css icon" />
       </div>
       <div className="icon">
         <img
           src={require("../images/icons8-javascript-144.png")}
-          alt="html icon image"
+          alt="javascript icon"
         />
       </div>
       <div className="icon">
-        <img
-          src={require("../images/icons8-react-144.png")}
-          alt="html icon image"
-        />
+        <img src={require("../images/icons8-react-144.png")} alt="react icon" />
       </div>
       <div className="icon">
         <img
           src={require("../images/icons8-material-ui-144.png")}
-          alt="html icon image"
+          alt="material ui icon"
         />
       </div>
       <div className="icon">
-        <img
-          src={require("../images/icons8-sass-144.png")}
-          alt="html icon image"
-        />
+        <img src={require("../images/icons8-sass-144.png")} alt="sass icon" />
       </div>
       <div className="icon">
-        <img
-          src={require("../images/icons8-npm-144.png")}
-          alt="html icon image"
-        />
+        <img src={require("../images/icons8-npm-144.png")} alt="npm icon" />
       </div>
       <div className="icon">
         <img
           src={require("../images/icons8-github-144.png")}
-          alt="html icon image"
+          alt="github icon"
         />
       </div>
     </div>

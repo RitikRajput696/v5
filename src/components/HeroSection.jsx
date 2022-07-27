@@ -24,7 +24,7 @@ function HeroSection() {
       </article>
       <div className="hero-img">
         <div>
-          <img src={HeroImg} alt="" />
+          <img src={HeroImg} alt="a boy with computer" />
         </div>
       </div>
     </section>
