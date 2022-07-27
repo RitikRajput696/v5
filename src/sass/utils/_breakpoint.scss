@@ -56,16 +56,18 @@
 
         .nav-links {
             display: none;
-            top: 7rem;
-            flex-direction: column;
+            top: 5rem;
             position: absolute;
+            flex-direction: column;
+            height: 100vh;
             z-index: 1;
             background-color: clr.$accent-bg;
 
-
             a {
                 width: 100vw;
+                padding: auto 1em;
                 text-align: center;
+                border: 1px solid white;
             }
         }
     }
@@ -93,15 +95,10 @@
             font-size: 1rem;
         }
 
-        .skills-list {
-
-            text-align: center;
+        .skills-icon {
+            grid-template-columns: repeat(3, 1fr);
         }
 
-        .skills p {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
     }
 
     .ProjectSection .CardList {
