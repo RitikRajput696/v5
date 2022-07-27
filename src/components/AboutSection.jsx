@@ -7,7 +7,7 @@ function AboutSection() {
   return (
     <section className="AboutSection container" id="about">
       <div className="about-img">
-        <img src={RocketImage} alt="rocket image" />
+        <img src={RocketImage} alt="rocket " />
       </div>
       <div className="my-text-wrapper">
         <div className="about-wrapper">
@@ -25,7 +25,7 @@ function AboutSection() {
         </p>
       </div>
       <div className="my-img">
-        <img loading="lazy" src={myIMage} alt="ritik rajput image" />
+        <img loading="lazy" src={myIMage} alt="ritik rajput " />
       </div>
       <div className="my-details-wrapper">
         <div className="my-details">

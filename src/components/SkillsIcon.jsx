@@ -5,13 +5,10 @@ function SkillsIcon() {
   return (
     <div className="skills-icon">
       <div className="icon">
-        <img
-          src={require("../images/icons8-html-5-144.png")}
-          alt="html icon image"
-        />
+        <img src={require("../images/icons8-html-5-144.png")} alt="html" />
       </div>
       <div className="icon">
-        <img src={require("../images/icons8-css3-144.png")} alt="css icon" />
+        <img src={require("../images/icons8-css3-144.png")} alt="css " />
       </div>
       <div className="icon">
         <img
@@ -20,7 +17,7 @@ function SkillsIcon() {
         />
       </div>
       <div className="icon">
-        <img src={require("../images/icons8-react-144.png")} alt="react icon" />
+        <img src={require("../images/icons8-react-144.png")} alt="react " />
       </div>
       <div className="icon">
         <img
@@ -29,16 +26,13 @@ function SkillsIcon() {
         />
       </div>
       <div className="icon">
-        <img src={require("../images/icons8-sass-144.png")} alt="sass icon" />
+        <img src={require("../images/icons8-sass-144.png")} alt="sass " />
       </div>
       <div className="icon">
-        <img src={require("../images/icons8-npm-144.png")} alt="npm icon" />
+        <img src={require("../images/icons8-npm-144.png")} alt="npm " />
       </div>
       <div className="icon">
-        <img
-          src={require("../images/icons8-github-144.png")}
-          alt="github icon"
-        />
+        <img src={require("../images/icons8-github-144.png")} alt="github " />
       </div>
     </div>
   );
