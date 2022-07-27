@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Box sizing rules */
 *,
 *::before,
@@ -31,12 +30,12 @@ body {
 }
 
 ::-moz-selection {
-  color: #64ffda;
+  color: #00cfa0;
   background-color: black;
 }
 
 ::selection {
-  color: #64ffda;
+  color: #00cfa0;
   background-color: black;
 }
 
@@ -47,7 +46,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.7;
   font-size: 1.2rem;
-  background-color: #071036;
+  background-color: #1d1927;
 }
 
 h1,
@@ -104,11 +103,11 @@ p {
 }
 
 .text-green {
-  color: #64ffda;
+  color: #00cfa0;
 }
 
 .button {
-  background-color: #071036;
+  background-color: #1d1927;
   color: white;
   border: 2px solid white;
   padding: 0.5em 3em;
@@ -119,12 +118,12 @@ p {
   transition: 400ms ease;
   background-size: 400%;
   background-position: right;
-  background-image: linear-gradient(90deg, #64ffda 50%, #071036 50%);
+  background-image: linear-gradient(90deg, #00cfa0 50%, #1d1927 50%);
 }
 
 .button:hover {
   color: black;
-  border: 2px solid #64ffda;
+  border: 2px solid #00cfa0;
   background-position: left;
 }
 
@@ -166,7 +165,7 @@ p {
   padding: 1rem;
 }
 .card .card-text a {
-  color: #64ffda;
+  color: #00cfa0;
 }
 
 .card:hover {
@@ -184,12 +183,12 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #071036;
+  background-color: #1d1927;
   color: white;
 }
 nav .logo {
   font-size: 3rem;
-  color: #64ffda;
+  color: #00cfa0;
 }
 nav .ham {
   width: 3rem;
@@ -213,7 +212,7 @@ nav .nav-links a {
 }
 nav .nav-links a:hover:not(.button) {
   background-color: black;
-  color: #64ffda;
+  color: #00cfa0;
 }
 nav .icons {
   display: flex;
@@ -221,7 +220,7 @@ nav .icons {
   justify-content: center;
 }
 nav .icons a:hover svg {
-  fill: #64ffda;
+  fill: #00cfa0;
   transition: 300ms ease;
 }
 nav .icons svg {
@@ -230,7 +229,7 @@ nav .icons svg {
 
 .hero {
   min-height: 80vh;
-  background-color: #071036;
+  background-color: #1d1927;
   color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -260,14 +259,29 @@ nav .icons svg {
   gap: 3rem;
   flex-direction: column;
   padding-top: 5rem;
-  background-color: #071036;
+  background-color: #1d1927;
   color: white;
   align-items: center;
 }
 .AboutSection .my-details-wrapper {
   display: flex;
+  flex-direction: column;
   gap: 5rem;
   align-items: center;
+}
+.AboutSection .skills-icon {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 2rem;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+.AboutSection .skills-icon .icon {
+  background-color: #8892b0;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  box-shadow: 0 0 1rem 0 #8892b0;
 }
 .AboutSection .about-img {
   -webkit-animation: move-up-down 4s ease infinite;
@@ -328,7 +342,7 @@ nav .icons svg {
   margin: 2rem 0;
   display: flex;
   padding: 1rem;
-  border-left: 2px solid #64ffda;
+  border-left: 2px solid #00cfa0;
 }
 
 .AboutSection .about-me-value {
@@ -336,21 +350,8 @@ nav .icons svg {
   color: #8892b0;
 }
 
-.AboutSection .skills-list {
-  list-style-type: none;
-  color: #8892b0;
-}
-
-.AboutSection li::before {
-  content: "▸";
-  color: #64ffda;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-}
-
 .ProjectSection {
-  background-color: #071036;
+  background-color: #1d1927;
   color: white;
   padding-top: 10rem;
 }
@@ -378,7 +379,7 @@ nav .icons svg {
   justify-content: center;
   padding-top: 10rem;
   margin-bottom: 10rem;
-  background-color: #071036;
+  background-color: #1d1927;
   color: white;
 }
 
@@ -487,15 +488,18 @@ nav .icons svg {
   }
   nav .nav-links {
     display: none;
-    top: 7rem;
-    flex-direction: column;
+    top: 5rem;
     position: absolute;
+    flex-direction: column;
+    height: 100vh;
     z-index: 1;
     background-color: rgb(4, 54, 43);
   }
   nav .nav-links a {
     width: 100vw;
+    padding: auto 1em;
     text-align: center;
+    border: 1px solid white;
   }
   .active {
     display: block !important;
@@ -512,12 +516,8 @@ nav .icons svg {
     padding: 0.5rem;
     font-size: 1rem;
   }
-  .AboutSection .skills-list {
-    text-align: center;
-  }
-  .AboutSection .skills p {
-    text-align: center;
-    margin-bottom: 2rem;
+  .AboutSection .skills-icon {
+    grid-template-columns: repeat(3, 1fr);
   }
   .ProjectSection .CardList {
     grid-template-columns: repeat(1, 1fr);

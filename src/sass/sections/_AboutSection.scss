@@ -12,8 +12,25 @@
 
     .my-details-wrapper {
         display: flex;
+        flex-direction: column;
         gap: 5rem;
         align-items: center;
+    }
+
+    .skills-icon {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 2rem;
+        column-gap: 3rem;
+
+        .icon {
+            background-color: clr.$slate;
+            padding: 0.2rem;
+            border-radius: 0.5rem;
+            border: 1px solid clr.$primary-text-color;
+            box-shadow: 0 0 1rem 0 clr.$slate;
+
+        }
     }
 
     .about-img {
@@ -78,16 +95,16 @@
     color: clr.$slate;
 }
 
-.AboutSection .skills-list {
-    list-style-type: none;
-    color: clr.$slate;
+// .AboutSection .skills-list {
+//     list-style-type: none;
+//     color: clr.$slate;
 
-}
+// }
 
-.AboutSection li::before {
-    content: "▸";
-    color: clr.$primary-blue;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-}
+// .AboutSection li::before {
+//     content: "▸";
+//     color: clr.$primary-blue;
+//     font-weight: bold;
+//     display: inline-block;
+//     width: 1em;
+// }

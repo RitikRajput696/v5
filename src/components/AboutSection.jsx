@@ -1,6 +1,7 @@
 import React from "react";
 import myIMage from "../images/ritikImage.png";
 import RocketImage from "../images/rocketImage.png";
+import SkillsIcon from "./SkillsIcon";
 
 function AboutSection() {
   return (
@@ -45,9 +46,11 @@ function AboutSection() {
             <div className="field-value">249402</div>
           </div>
         </div>
-        <div className="skills">
+        <SkillsIcon />
+        {/* <div className="skills">
           <p>Here are a few technologies I’ve been working with recently:</p>
           <ul className="skills-list">
+
             <li>Html</li>
             <li>CSS</li>
             <li>Javascript</li>
@@ -57,7 +60,7 @@ function AboutSection() {
             <li>Node.js</li>
             <li>Github</li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </section>
   );
