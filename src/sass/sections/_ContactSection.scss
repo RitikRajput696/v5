@@ -58,18 +58,29 @@
     color: clr.$white;
     font-size: 1.1rem;
     font-weight: 500;
+
 }
 
 .form input:focus,
 .form textarea:focus {
     border: 2px solid clr.$primary-blue;
+    background-color: transparent;
 }
 
 .form input {
     height: 3rem;
     max-width: 100%;
+    border-radius: 10px;
+    background: clr.$bg-color;
+    box-shadow: inset 5px 5px 10px #0c0a10,
+        inset -5px -5px 10px #2e283e;
+
 }
 
 .form textarea {
     padding: 1.5rem;
+    border-radius: 10px;
+    background: clr.$bg-color;
+    box-shadow: inset 8px 8px 16px #0c0a10,
+        inset -8px -8px 16px #2e283e;
 }

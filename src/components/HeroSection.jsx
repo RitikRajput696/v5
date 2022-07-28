@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImg from "../images/hero-image.png";
+import { Slide } from "react-awesome-reveal";
 
 function HeroSection() {
   return (
@@ -22,10 +23,13 @@ function HeroSection() {
           </a>
         </div>
       </article>
+
       <div className="hero-img">
-        <div>
-          <img src={HeroImg} alt="a boy with computer" />
-        </div>
+        <Slide direction="right">
+          <div>
+            <img src={HeroImg} alt="a boy with computer" />
+          </div>
+        </Slide>
       </div>
     </section>
   );

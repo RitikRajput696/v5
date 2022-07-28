@@ -133,6 +133,7 @@ p {
   align-items: center;
   gap: 2rem;
   border-radius: 10px;
+  height: 100%;
   transition: 300ms ease;
   background: #1d1927;
   box-shadow: -8px -8px 9px #13111a, 8px 8px 9px #272234;
@@ -440,15 +441,22 @@ nav .icons svg {
 .form input:focus,
 .form textarea:focus {
   border: 2px solid #00cfa0;
+  background-color: transparent;
 }
 
 .form input {
   height: 3rem;
   max-width: 100%;
+  border-radius: 10px;
+  background: #1d1927;
+  box-shadow: inset 5px 5px 10px #0c0a10, inset -5px -5px 10px #2e283e;
 }
 
 .form textarea {
   padding: 1.5rem;
+  border-radius: 10px;
+  background: #1d1927;
+  box-shadow: inset 8px 8px 16px #0c0a10, inset -8px -8px 16px #2e283e;
 }
 
 @media only screen and (max-width: 930px) {

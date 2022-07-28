@@ -1,5 +1,6 @@
 import React from "react";
 import CardData from "./CardData";
+import { Fade } from "react-awesome-reveal";
 
 function CardList() {
   return (
@@ -13,42 +14,21 @@ function CardList() {
 
 function ProjectCard({ img, title, live, sourceCode }) {
   return (
-    <div className="card">
-      <div className="card-img">
-        <img src={img} alt="" />
-      </div>
-      <div className="card-text">
-        <h2>{title}</h2>
-        <div className="card-bottom">
-          <a href={live}>LIVE</a>
-          <a href={sourceCode}>SOURCE CODE</a>
+    <Fade duration="2000" fraction="0.5">
+      <div className="card">
+        <div className="card-img">
+          <img src={img} alt="" />
+        </div>
+        <div className="card-text">
+          <h2>{title}</h2>
+          <div className="card-bottom">
+            <a href={live}>LIVE</a>
+            <a href={sourceCode}>SOURCE CODE</a>
+          </div>
         </div>
       </div>
-    </div>
+    </Fade>
   );
 }
 
 export default CardList;
-// function ProjectCard() {
-//   return (
-//     <div className="card">
-//       <div className="card-img">
-//         <img src={ClockImg} alt="" />
-//       </div>
-//       <div className="card-text">
-//         <h2>Project Name</h2>
-//         <div className="card-labels">
-//           <code>HTML</code>
-//           <code>CSS</code>
-//           <code>REACT</code>
-//         </div>
-//         <div className="card-bottom">
-//           <a href="#">LIVE</a>
-//           <a href="#">SOURCE CODE</a>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default ProjectCard;

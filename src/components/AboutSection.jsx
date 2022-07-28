@@ -2,6 +2,7 @@ import React from "react";
 import myIMage from "../images/ritikimage.png";
 import RocketImage from "../images/rocketImage.png";
 import SkillsIcon from "./SkillsIcon";
+import { Fade } from "react-awesome-reveal";
 
 function AboutSection() {
   return (
@@ -24,9 +25,11 @@ function AboutSection() {
           <span className="text-green"> Web Development.</span>
         </p>
       </div>
-      <div className="my-img">
-        <img loading="lazy" src={myIMage} alt="ritik rajput " />
-      </div>
+      <Fade>
+        <div className="my-img">
+          <img loading="lazy" src={myIMage} alt="ritik rajput " />
+        </div>
+      </Fade>
       <div className="my-details-wrapper">
         <div className="my-details">
           <div className="about-me-field">
