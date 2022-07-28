@@ -1,5 +1,5 @@
 import React from "react";
-import myIMage from "../images/ritikImage.png";
+import myIMage from "../images/ritikimage.png";
 import RocketImage from "../images/rocketImage.png";
 import SkillsIcon from "./SkillsIcon";
 

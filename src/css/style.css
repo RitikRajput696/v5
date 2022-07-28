@@ -132,9 +132,10 @@ p {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  background-color: #003948;
   border-radius: 10px;
   transition: 300ms ease;
+  background: #1d1927;
+  box-shadow: -8px -8px 9px #13111a, 8px 8px 9px #272234;
 }
 .card .card-img img {
   border-radius: 10px 10px 0 0;
@@ -165,6 +166,7 @@ p {
 
 .card:hover {
   transform: scale(1.025);
+  box-shadow: -10px -10px 31px #17141e, 10px 10px 31px #231f30;
 }
 
 header {
@@ -172,6 +174,9 @@ header {
   top: 0;
   z-index: 10;
   width: 100%;
+  border-radius: 0px;
+  background: #1d1927;
+  box-shadow: -12px -12px 24px #100e15, 12px 12px 24px #2a2439;
 }
 
 nav {
@@ -273,11 +278,10 @@ nav .icons svg {
   margin-bottom: 5rem;
 }
 .AboutSection .skills-icon .icon {
-  background-color: #b0cbd2;
   padding: 0.2rem;
+  background: #1d1927;
   border-radius: 0.5rem;
-  border: 1px solid white;
-  box-shadow: 0 0 1rem 0 #b0cbd2;
+  box-shadow: 10px 10px 20px #0c0a10, -10px -10px 20px #2e283e;
 }
 .AboutSection .about-img {
   -webkit-animation: move-up-down 4s ease infinite;
@@ -326,10 +330,13 @@ nav .icons svg {
 
 .AboutSection .my-img {
   position: relative;
+  margin: 3.5rem 0 0 1rem;
+  border-radius: 0.5rem;
+  background: #1d1927;
+  box-shadow: -8px -8px 16px #100e15, 8px 8px 16px #2a2439;
 }
 
 .AboutSection .my-img img {
-  margin: 3.5rem 0 0 1rem;
   height: auto;
   border-radius: 10px;
 }
@@ -338,8 +345,11 @@ nav .icons svg {
   margin: 2rem 0;
   margin-bottom: 5rem;
   display: flex;
-  padding: 1rem;
+  padding: 1.5rem;
   border-left: 2px solid #00cfa0;
+  border-radius: 5px;
+  background: #1d1927;
+  box-shadow: inset 5px 5px 10px #100e15, inset -5px -5px 10px #2a2539;
 }
 
 .AboutSection .about-me-value {
@@ -517,9 +527,6 @@ nav .icons svg {
     -moz-column-gap: 1rem;
          column-gap: 1rem;
     row-gap: 1rem;
-  }
-  .AboutSection .skills-icon .icon {
-    box-shadow: 0 0 0.5rem 0 #b0cbd2;
   }
   .ProjectSection .CardList {
     grid-template-columns: repeat(1, 1fr);

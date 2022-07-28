@@ -25,11 +25,12 @@
         margin-bottom: 5rem;
 
         .icon {
-            background-color: clr.$slate;
+
             padding: 0.2rem;
+            background: clr.$bg-color;
             border-radius: 0.5rem;
-            border: 1px solid clr.$primary-text-color;
-            box-shadow: 0 0 1rem 0 clr.$slate;
+            box-shadow: 10px 10px 20px #0c0a10,
+                -10px -10px 20px #2e283e;
 
         }
     }
@@ -74,12 +75,15 @@
 
 .AboutSection .my-img {
     position: relative;
+    margin: 3.5rem 0 0 1rem;
+    border-radius: 0.5rem;
+    background: clr.$bg-color;
+    box-shadow: -8px -8px 16px #100e15,
+        8px 8px 16px #2a2439;
 }
 
 .AboutSection .my-img img {
-    margin: 3.5rem 0 0 1rem;
     height: auto;
-
     border-radius: 10px;
 }
 
@@ -87,8 +91,13 @@
     margin: 2rem 0;
     margin-bottom: 5rem;
     display: flex;
-    padding: 1rem;
+    padding: 1.5rem;
     border-left: 2px solid clr.$primary-blue;
+
+    border-radius: 5px;
+    background: clr.$bg-color;
+    box-shadow: inset 5px 5px 10px #100e15,
+        inset -5px -5px 10px #2a2539;
 
 }
 

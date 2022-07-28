@@ -5,9 +5,11 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    background-color: clr.$accent-bg;
     border-radius: 10px;
     transition: 300ms ease;
+    background: clr.$bg-color;
+    box-shadow: -8px -8px 9px #13111a,
+        8px 8px 9px #272234;
 
     .card-img {
         img {
@@ -49,5 +51,8 @@
 
 .card:hover {
     transform: scale(1.025);
+
+    box-shadow: -10px -10px 31px #17141e,
+        10px 10px 31px #231f30;
 
 }
