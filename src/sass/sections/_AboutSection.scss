@@ -22,6 +22,7 @@
         grid-template-columns: repeat(4, 1fr);
         row-gap: 2rem;
         column-gap: 3rem;
+        margin-bottom: 5rem;
 
         .icon {
             background-color: clr.$slate;
@@ -84,6 +85,7 @@
 
 .AboutSection .my-details {
     margin: 2rem 0;
+    margin-bottom: 5rem;
     display: flex;
     padding: 1rem;
     border-left: 2px solid clr.$primary-blue;

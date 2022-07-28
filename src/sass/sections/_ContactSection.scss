@@ -9,8 +9,7 @@
     padding-bottom: 10rem;
 
 
-    background-color: clr.$bg-color;
-    color: clr.$primary-text-color;
+    color: clr.$white;
 }
 
 .ContactSection>div {
@@ -55,15 +54,15 @@
     text-indent: 1rem;
     outline: none;
     background-color: transparent;
-    border: 2px solid #8892b0;
-    color: #e6f1ff;
+    border: 2px solid clr.$slate;
+    color: clr.$white;
     font-size: 1.1rem;
     font-weight: 500;
 }
 
 .form input:focus,
 .form textarea:focus {
-    border: 2px solid #64ffda;
+    border: 2px solid clr.$primary-blue;
 }
 
 .form input {

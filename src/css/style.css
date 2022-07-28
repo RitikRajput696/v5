@@ -270,6 +270,7 @@ nav .icons svg {
   row-gap: 2rem;
   -moz-column-gap: 3rem;
        column-gap: 3rem;
+  margin-bottom: 5rem;
 }
 .AboutSection .skills-icon .icon {
   background-color: #b0cbd2;
@@ -335,6 +336,7 @@ nav .icons svg {
 
 .AboutSection .my-details {
   margin: 2rem 0;
+  margin-bottom: 5rem;
   display: flex;
   padding: 1rem;
   border-left: 2px solid #00cfa0;
@@ -346,7 +348,6 @@ nav .icons svg {
 }
 
 .ProjectSection {
-  background-color: #1d1927;
   color: white;
   padding-top: 10rem;
 }
@@ -357,6 +358,7 @@ nav .icons svg {
   margin-bottom: 3rem;
 }
 .ProjectSection h1 {
+  color: white;
   font-size: clamp(1.5rem, 5vw, 3rem);
   text-align: center;
 }
@@ -374,7 +376,6 @@ nav .icons svg {
   justify-content: center;
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background-color: #1d1927;
   color: white;
 }
 
@@ -420,15 +421,15 @@ nav .icons svg {
   text-indent: 1rem;
   outline: none;
   background-color: transparent;
-  border: 2px solid #8892b0;
-  color: #e6f1ff;
+  border: 2px solid #b0cbd2;
+  color: white;
   font-size: 1.1rem;
   font-weight: 500;
 }
 
 .form input:focus,
 .form textarea:focus {
-  border: 2px solid #64ffda;
+  border: 2px solid #00cfa0;
 }
 
 .form input {

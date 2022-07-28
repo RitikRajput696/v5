@@ -1,11 +1,12 @@
 @use "../variable/colors" as clr;
 
 .ProjectSection {
-    background-color: clr.$bg-color;
-    color: clr.$primary-text-color;
+
+    color: clr.$white;
     padding-top: 10rem;
 
     .ProjectSection-text {
+
         display: flex;
         align-items: center;
         justify-content: center;
@@ -13,6 +14,7 @@
     }
 
     h1 {
+        color: clr.$primary-heading-color;
         font-size: clamp(1.5rem, 5vw, 3rem);
         text-align: center;
     }

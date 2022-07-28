@@ -46,6 +46,14 @@ function AboutSection() {
             <div className="field-value">249402</div>
           </div>
         </div>
+
+        <div className="about-wrapper">
+          <span className="text-green">03.</span>
+          <h1>
+            <span className="mid-heading">Skills</span>
+          </h1>
+        </div>
+
         <SkillsIcon />
       </div>
     </section>
