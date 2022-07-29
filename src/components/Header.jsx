@@ -1,15 +1,15 @@
 import React from "react";
 
 function Header() {
-  const hamBtn = document.querySelector(".hamburger");
-
   // hide nav when click on links
   function hideNav() {
+    const hamBtn = document.querySelector(".hamburger");
     document.querySelector(".nav-links").classList.toggle("active");
     hamBtn.classList.remove("is-active");
   }
-
+  // toggle hamburger animation and navlinks display block and none
   function toggleNav() {
+    const hamBtn = document.querySelector(".hamburger");
     hamBtn.classList.toggle("is-active");
     document.querySelector(".nav-links").classList.toggle("active");
   }
@@ -20,7 +20,7 @@ function Header() {
         <h1 className="logo">
           Ritik Rajput
           <button
-            className=" hamburger hamburger--slider"
+            className=" ham hamburger hamburger--slider"
             type="button"
             onClick={toggleNav}
           >

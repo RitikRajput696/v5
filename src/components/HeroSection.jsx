@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImg from "../images/hero-image.png";
-import { Slide } from "react-awesome-reveal";
+import { Zoom, Fade, Slide, Rotate } from "react-awesome-reveal";
 
 function HeroSection() {
   return (
@@ -25,11 +25,11 @@ function HeroSection() {
       </article>
 
       <div className="hero-img">
-        <Slide direction="right">
+        <Fade>
           <div>
             <img src={HeroImg} alt="a boy with computer" />
           </div>
-        </Slide>
+        </Fade>
       </div>
     </section>
   );

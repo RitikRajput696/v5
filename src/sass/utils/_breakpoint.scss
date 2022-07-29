@@ -52,11 +52,12 @@
 
         .ham {
             display: block;
+            user-select: none;
         }
 
         .nav-links {
             display: none;
-            top: 5rem;
+            top: 5.5rem;
             position: absolute;
             flex-direction: column;
             height: 100vh;
@@ -115,4 +116,15 @@
     }
 
 
+}
+
+@media only screen and(max-width:380px) {
+    header {
+        nav {
+            .logo {
+                font-size: 2rem;
+
+            }
+        }
+    }
 }
