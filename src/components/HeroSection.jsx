@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImg from "../images/hero-image.png";
-import { Zoom, Fade, Slide, Rotate } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function HeroSection() {
   return (
