@@ -1,25 +1,33 @@
 import React from "react";
 
 function Header() {
-  // show nav when click on hamburger
-  function ShowHideNav() {
-    document.querySelector(".nav-links").classList.toggle("active");
-  }
+  const hamBtn = document.querySelector(".hamburger");
 
   // hide nav when click on links
   function hideNav() {
     document.querySelector(".nav-links").classList.toggle("active");
+    hamBtn.classList.remove("is-active");
   }
+
+  function toggleNav() {
+    hamBtn.classList.toggle("is-active");
+    document.querySelector(".nav-links").classList.toggle("active");
+  }
+
   return (
     <header>
       <nav className="container">
         <h1 className="logo">
-          Ritik Rajput{" "}
-          <div className="ham" onClick={ShowHideNav}>
-            <div className="ham-item"></div>
-            <div className="ham-item"></div>
-            <div className="ham-item"></div>
-          </div>
+          Ritik Rajput
+          <button
+            className=" hamburger hamburger--slider"
+            type="button"
+            onClick={toggleNav}
+          >
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
+            </span>
+          </button>
         </h1>
         <ul className="nav-links">
           <li>
