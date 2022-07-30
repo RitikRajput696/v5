@@ -41,5 +41,12 @@ const CardData = [
     sourceCode: "https://github.com/RitikRajput696/v5",
     img: "https://i.imgur.com/bp2o9mY.png",
   },
+  {
+    id: 7,
+    title: "Advice Generator App",
+    live: "https://ritikrajput696.github.io/Random-Advice-Generator/",
+    sourceCode: "https://github.com/RitikRajput696/v5",
+    img: "https://i.imgur.com/Wh4FcgV.png",
+  },
 ];
 export default CardData;
