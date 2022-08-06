@@ -444,7 +444,7 @@ nav .icons svg {
   border-left: 2px solid #00cfa0;
   border-radius: 5px;
   background: #1d1927;
-  box-shadow: inset 5px 5px 10px #100e15, inset -5px -5px 10px #2a2539;
+  box-shadow: inset -5px -5px 10px #100e15, inset 5px 5px 10px #2a2539;
 }
 
 .AboutSection .about-me-value {
