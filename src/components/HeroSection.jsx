@@ -1,6 +1,6 @@
-import React from "react";
-import HeroImg from "../images/hero-image.png";
-import { Fade } from "react-awesome-reveal";
+import React from 'react';
+import HeroImg from '../images/hero-image.png';
+import { Fade } from 'react-awesome-reveal';
 
 function HeroSection() {
   return (
@@ -15,7 +15,7 @@ function HeroSection() {
           </a>
           <a
             className="button"
-            href="https://drive.google.com/file/d/1WZYKPt1IgLUQ21cCgh41R8E5nf4_WIQF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1AVcXIoc6FtcgRf3II_aOh-vtDXLIuS5x/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
