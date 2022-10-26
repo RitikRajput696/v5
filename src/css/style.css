@@ -304,6 +304,7 @@ nav .nav-links a {
   font-size: 1.1rem;
   color: white;
   transition: 400ms ease;
+  border-radius: 0.4rem;
 }
 nav .nav-links a:hover:not(.button) {
   background-color: black;
