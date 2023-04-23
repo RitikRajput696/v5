@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react';
 
 function Header() {
   // hide nav when click on links
   function hideNav() {
-    const hamBtn = document.querySelector(".hamburger");
-    document.querySelector(".nav-links").classList.toggle("active");
-    hamBtn.classList.remove("is-active");
+    const hamBtn = document.querySelector('.hamburger');
+    document.querySelector('.nav-links').classList.toggle('active');
+    hamBtn.classList.remove('is-active');
   }
   // toggle hamburger animation and navlinks display block and none
   function toggleNav() {
-    const hamBtn = document.querySelector(".hamburger");
-    hamBtn.classList.toggle("is-active");
-    document.querySelector(".nav-links").classList.toggle("active");
+    const hamBtn = document.querySelector('.hamburger');
+    hamBtn.classList.toggle('is-active');
+    document.querySelector('.nav-links').classList.toggle('active');
   }
 
   return (
@@ -66,7 +66,7 @@ function Header() {
           </li>
           <li className="icons">
             <a
-              href="https://www.twitter.com/ritikrajput696"
+              href="https://twitter.com/ritik_1047"
               target="_blank"
               rel="noreferrer"
               onClick={hideNav}
