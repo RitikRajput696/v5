@@ -30,10 +30,10 @@ const CardData = [
   },
   {
     id: 5,
-    title: 'To Do List App',
-    live: 'https://ritikrajput696.github.io/to-do-app/',
-    sourceCode: 'https://github.com/RitikRajput696/to-do-app',
-    img: 'https://i.imgur.com/D9mGyO3.png',
+    title: 'Tip Calculator App',
+    live: 'https://ritikrajput696.github.io/tip-calculator-app/src/',
+    sourceCode: 'https://github.com/RitikRajput696/tip-calculator-app',
+    img: 'https://i.imgur.com/Lxo1WuA.png',
   },
   {
     id: 6,
@@ -55,6 +55,13 @@ const CardData = [
     live: 'https://ritikrajput696.github.io/Digital-Clock/',
     sourceCode: 'https://github.com/RitikRajput696/Digital-Clock',
     img: 'https://i.imgur.com/Yf4IB5b.png',
+  },
+  {
+    id: 9,
+    title: 'To Do List App',
+    live: 'https://ritikrajput696.github.io/to-do-app/',
+    sourceCode: 'https://github.com/RitikRajput696/to-do-app',
+    img: 'https://i.imgur.com/D9mGyO3.png',
   },
 ];
 export default CardData;
