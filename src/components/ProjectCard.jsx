@@ -1,6 +1,6 @@
-import React from "react";
-import CardData from "./CardData";
-import { Fade } from "react-awesome-reveal";
+import React from 'react';
+import CardData from './CardData';
+import { AttentionSeeker, Fade } from 'react-awesome-reveal';
 
 function CardList() {
   return (
@@ -14,7 +14,7 @@ function CardList() {
 
 function ProjectCard({ img, title, live, sourceCode }) {
   return (
-    <Fade duration="2000" fraction="0.5">
+    <Fade duration="2000">
       <div className="card">
         <div className="card-img">
           <img src={img} alt="" />
