@@ -1,6 +1,6 @@
 import React from 'react';
 import CardData from './CardData';
-import { AttentionSeeker, Fade } from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 function CardList() {
   return (
