@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 // import myIMage from "../images/ritikImage.png";
-import myIMage from '../images/ritikProfileImage.png';
-import RocketImage from '../images/rocketImage.png';
-import SkillsIcon from './SkillsIcon';
-import { Fade } from 'react-awesome-reveal';
+import myIMage from "../images/ritikProfileImage.png";
+import RocketImage from "../images/rocketImage.png";
+import SkillsIcon from "./SkillsIcon";
+import { Fade } from "react-awesome-reveal";
 
 function AboutSection() {
   return (
@@ -39,15 +39,13 @@ function AboutSection() {
             <div className="field-name">Email:</div>
             <div className="field-name">Profession:</div>
             <div className="field-name">Address:</div>
-            <div className="field-name">Pin Code:</div>
           </div>
           <div className="about-me-value">
             <div className="field-value">Ritik Rajput</div>
-            <div className="field-value">19</div>
-            <div className="field-value">ritikrajput1047@gmail.com</div>
+            <div className="field-value">20</div>
+            <div className="field-value">rixusinput696@gmail.com</div>
             <div className="field-value">Frontend WebDeveloper</div>
-            <div className="field-value">Bahadrabad, Haridwar, In</div>
-            <div className="field-value">249402</div>
+            <div className="field-value">Haridwar, India</div>
           </div>
         </div>
 
