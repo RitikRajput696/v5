@@ -1,6 +1,6 @@
 import React from "react";
-// import myIMage from "../images/ritikImage.png";
-import myIMage from "../images/ritikProfileImage.png";
+
+import myIMage from "../images/WhatsApp Image 2024-11-15 at 19.32.37.jpeg";
 import RocketImage from "../images/rocketImage.png";
 import SkillsIcon from "./SkillsIcon";
 import { Fade } from "react-awesome-reveal";
@@ -28,24 +28,26 @@ function AboutSection() {
       </div>
       <Fade>
         <div className="my-img">
-          <img loading="lazy" src={myIMage} alt="ritik rajput " />
+          <img
+            loading="lazy"
+            src={myIMage}
+            alt="ritik rajput "
+            width={350}
+            height={200}
+          />
         </div>
       </Fade>
       <div className="my-details-wrapper">
         <div className="my-details">
           <div className="about-me-field">
             <div className="field-name">Name:</div>
-            <div className="field-name">Age:</div>
             <div className="field-name">Email:</div>
             <div className="field-name">Profession:</div>
-            <div className="field-name">Address:</div>
           </div>
           <div className="about-me-value">
             <div className="field-value">Ritik Rajput</div>
-            <div className="field-value">20</div>
             <div className="field-value">rixusinput696@gmail.com</div>
-            <div className="field-value">Frontend WebDeveloper</div>
-            <div className="field-value">Haridwar, India</div>
+            <div className="field-value">FullStack WebDeveloper</div>
           </div>
         </div>
 
