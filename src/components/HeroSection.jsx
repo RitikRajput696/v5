@@ -15,7 +15,7 @@ function HeroSection() {
           </a>
           <a
             className="button"
-            href="https://drive.google.com/file/d/18k2QboeVs8zPXbAmuWq6KFvPATqczYAJ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tIO2pSSaspAp1ulxOqz_tItY8CttFEbZ/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
